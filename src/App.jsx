@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Card from './components/Card';
+import CardContainer from './components/CardContainer';
+import { useState } from 'react';
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Card />
+        <CardContainer />
         <a
           className="App-link"
           href="https://reactjs.org"
